@@ -1,0 +1,332 @@
+body {
+    font-family: sans-serif;
+    background-color: #F0FAFC;
+    margin: 0;
+}
+    .first{
+        display: flex;
+        padding: 20px;
+        gap: 10px;
+        text-align:center;
+        border-bottom:#1A6483;
+        color:#1A6483;
+        border-bottom: 1px solid #1A6483;
+        border-right: 1px solid  #1A6483;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        width: 96%;
+        height: 1%;
+    }
+        .Parba{
+            color:#1A6483;
+            font-weight: bold;
+            flex: 1;
+            padding: 5px;
+        }
+        .navigation{
+            justify-content: center;
+            display: flex;
+            padding: 10px;
+            background-color:#1A6483;
+            color: white;
+            border-radius: 4px;
+            gap: 20px;
+            font-size: 12px;
+            width: 50%;
+            height: 1%;
+            text-align: center;
+        }
+         .p1{
+        flex: 1;
+        padding: 2px;
+        display: inline-block;
+        font-size: 11px;
+        }
+
+
+    .section1{
+        padding-top: 20px;/*pour ajouter de l'espace en haut et en bas */
+        padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+        padding: 30px;
+        text-align: center;
+    }
+   
+        .page1{
+            width: 250px;
+            text-align: left;
+            color: black;
+        }
+            .Parba1{
+                color:#1A6483;
+                font-weight:bold;
+                font-size: 30px;
+            }        
+            .image1 {
+                width: 250px;
+            }
+           
+        .boutons{
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        } 
+            .Commencer{
+                background-color:#1A6483;
+                color: #F0FAFC;
+                font-size: 18px;
+                padding: 12px 25px;
+                border-radius: 5px;
+                font-size: 13px;
+            }
+            .reseau{
+                background-color:#F0FAFC;
+                color:#1A6483;
+                border-radius: 5px;
+                font-size: 18px;
+                padding: 12px 25px;
+                font-size: 13px;
+            }
+
+
+    .section2{
+        background-color:#1A6483;
+        margin-bottom: 10px;
+        color: white;
+        text-align: center;
+        padding: 30px;
+        margin:0 auto; 
+    }
+        .p21{
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        .p22{
+            text-align: left;
+            padding-bottom: 50px;
+        }
+
+
+    .section3{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+        .trait {
+            width: 180px;
+            height: 6px;
+            background-color: #14677d;
+            border-radius: 10px;
+            margin: 30px auto;
+        }
+        .partenaires{
+            color: #14677d;
+        }
+        .images2{
+            width: 80%;
+            max-width: 900px;
+            min-height: 200px;
+            align-items: center;
+            justify-content: center;
+            background-color:#99E3FF;
+            padding: 20px; 
+            margin:0 auto;
+            display: flex;
+            position: relative;
+        }
+            .flechegauche {
+                flex: 1;
+                position: absolute;
+                background-color: #14677d;
+                color: white;
+                border: none;
+                width: 20px;
+                height: 20px;
+                align-items: center;
+                justify-content: center;
+                left: 50px;
+            }   
+            .flechedroite {
+                flex: 1;
+                position: absolute;
+                background-color: #14677d;
+                color: white;
+                border: none;
+                width: 20px;
+                height: 20px;
+                align-items: center;
+                justify-content: center;
+                right:50px;
+                cursor: pointer;
+            }
+            .image2,.image3,.image4{
+                flex: 1;
+                align-items: center;
+                width: 100px;
+                text-align: center;
+                padding: 20px;
+                flex: none;
+            }
+
+
+    .section4{
+        justify-content: center;
+        text-align: center;
+    }
+        .confiance{
+            color: #14677d;
+        }
+        .personnage{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 55px;
+            margin-top: 100px;
+        }
+            .flechegauche1 {
+                flex: 1;
+                position: absolute;
+                background-color: #14677d;
+                color: white;
+                border: none;
+                width: 20px;
+                height: 20px;
+                align-items: center;
+                justify-content: center;
+                left: 100px;
+                top: 50%;
+            }
+            .flechedroite1 {
+                flex: 1;
+                position: absolute;
+                background-color: #14677d;
+                color: white;
+                border: none;
+                width: 20px;
+                height: 20px;
+                align-items: center;
+                justify-content: center;
+                right:100px;
+                cursor: pointer;
+                top: 50%;
+            }
+            .Juliette,.Adams{
+                position: relative;
+                width: 200px;
+                min-height: 240px;
+                padding: 70px 12px 20px;
+                text-align: center;
+                color: black;
+                border: 1px solid #16718a;
+                border-radius: 5px;
+                box-sizing: border-box;
+                font-size: 13px;
+                line-height: 1.4;
+            }
+            .imageAdams,.imageJuliette {
+                position: absolute;
+                top: -50px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 95px;
+                height: 95px;
+                object-fit: cover;
+                border-radius: 50%;
+                border: 2px solid #16718a;
+            }
+
+
+    .section5{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        gap: 55px;
+        padding: 30px;
+    }
+        .trait {
+        width: 180px;
+        height: 6px;
+        background-color: #14677d;
+        border-radius: 10px;
+        margin: 30px auto;
+        }
+        .formulaire{
+            background-color:#1A6483;
+            text-align: center;
+            color: white;
+            width: 80%;
+            padding: 30px;
+            margin:0 auto;
+        }
+            .nom,.structure,.email{
+                width: 80%;
+                height: 25px;
+            }
+            .message{
+                width: 80%;
+                height: 60px;
+            }
+            .nom_,.structure_,.email_,.message_{
+                text-align: left;
+            }
+            .conctact{
+                color: #1A6483;
+                text-align: center;
+            }
+
+
+    .fin{
+        background-color:black;
+        color: white;
+   }
+        .parti1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 50px;
+        }
+            .fin1{
+                width: 300px;
+                flex: 1;
+                margin:0 auto;
+                flex: none;
+            }
+            .fin2{
+                width: 300px;
+                flex: 1;
+                margin:0 auto;
+                flex: none;
+            }
+        .social-icons{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            width: 25px;
+            background-color: white;
+            border-radius: 5px;
+            flex: none;
+            margin:0 auto;
+        }
+        .social-icons2{
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            width: 80px;
+            margin-top: 30px;
+            margin:0 auto;
+            background-color: white;
+            border-radius: 5px;
+        } 
+        .COPYRIGHT{
+            text-align: center;
+            font-size: 10px;
+            margin-top: 20px;
+            margin-bottom: -50px;
+        }
